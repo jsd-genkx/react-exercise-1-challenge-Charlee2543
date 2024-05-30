@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <nav className="bg-gray-800 p-4">
-        <ul className="flex justify-center space-x-4">
+      <nav className="bg-black p-4">
+        <ul className="flex items-start justify-center space-x-4">
           <li>
             <Link to="/" className="text-white hover:text-gray-400">
               Home
